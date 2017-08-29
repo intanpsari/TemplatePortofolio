@@ -1,0 +1,95 @@
+@media (min-width:480px){
+
+	/*=======================
+	--------General----------
+	========================*/
+	h1{
+		font-size: 2.5em;
+	}
+
+
+	/*=======================
+	--------Home----------
+	========================*/
+	#gallery li{
+		width:28.3333%; 
+	}
+	/*#gallery li:nth-child(4n){
+		clear: right;
+	}
+	#gallery li:nth-child(4n+1){
+		background-color: #fcc2d8;
+	}
+	/*=======================
+	--------Contact----------
+	========================*/
+	#primary{
+	width:50%;
+	float: left;
+	font-family: 'Love Ya Like A Sister', cursive;
+	}
+	#secondary{
+		width:40%;
+		float: right;
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+/*=======================
+--------About----------
+========================*/
+	#primabout{
+		width:40%;
+		float: left;
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	#secondabout{
+		width:50%;
+		float: right;
+		font-family: 'Love Ya Like A Sister', cursive;
+	}
+	/*=======================
+	--------About----------
+	========================*/
+	.profil-photo{
+		float:left;
+		margin: 0 5% 80px 0;
+	}
+}
+
+@media screen and (min-width:660px)and (max-width: 800px){
+	/*=======================
+	--------General----------
+	========================*/
+	h1{
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+	/*=======================
+	--------Header------------
+	========================*/
+	header{
+		border-bottom: 5px solid #599a68;
+		margin-bottom: 60px;
+	}
+	#logo{
+		float:left;
+		margin-left: 5%;
+		text-align: left;
+		width:45%;
+	}
+
+	/*=======================
+	--------Nav------------
+	========================*/
+	nav{
+		background:none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width:45%;
+	}
+	
+}
